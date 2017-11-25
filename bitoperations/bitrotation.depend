@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1511560568 source:c:\users\swagumen\documents\my projects\bitrotation\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<math.h>
+
