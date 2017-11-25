@@ -62,13 +62,13 @@ int main()
             printf("Introduceti un numar care se poate scrie pe 8 biti, fara semn: ");
             do{
                 fgets(check, 100, stdin);
-                val = atoi(check);
-                if((val >= 256) || (val <= 0)){
+                val = atoi(check); //am folosit string to int pentru ca voiam sa verific daca numarul introdus era in interval
+                if((val >= 256) || (val < 0)){
                     printf("Introduceti un numar in intervalul [0, 255]:");
                 }
                 else
                     a = val;
-            }while(val>=256 || val <= 0);
+            }while(val>=256 || val < 0);
             printf("Introduceti n: ");
             scanf("%u", &n);
             break;
